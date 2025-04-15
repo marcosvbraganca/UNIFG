@@ -1,3 +1,4 @@
+package carro;
 public class carro {
     String marca,modelo;
     int ano;
@@ -15,8 +16,4 @@ public class carro {
         System.out.println("O ano do carro é: "+carro.ano);
     }
 
-    public static void main(String[] args) {
-        carro carro = new carro();
-        carro.exibirDetalhes();
-    }
 }

@@ -1,3 +1,4 @@
+package triangulo;
 public class triangulo {
     double base,altura,area;
     
@@ -11,8 +12,5 @@ public class triangulo {
         System.out.println("A área é: "+area);
     }
 
-    public static void main(String[] args) {
-    triangulo triangulo = new triangulo();
-    triangulo.calcularTriangulo();
-}
+    
 }

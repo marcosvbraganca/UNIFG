@@ -1,3 +1,4 @@
+package produto;
 public class produto {
     String nome;
     double preco,novo_preco;
@@ -13,10 +14,6 @@ public class produto {
         System.out.println("O preço após o desconto é"+novo_preco);
     }
 
-    public static void main(String[] args) {
-        produto produto = new produto();
-        System.out.println(produto.preco);
-        produto.aplicarDesconto(5);
-    }
+   
 
 }

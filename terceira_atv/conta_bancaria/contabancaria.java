@@ -1,3 +1,4 @@
+package conta_bancaria;
 public class contabancaria {
     String numConta;
     double saldo,novo_saldo;

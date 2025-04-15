@@ -1,3 +1,4 @@
+package circulo;
 public class circulo {
     double raio,area,circunferencia;
 
@@ -15,11 +16,7 @@ public class circulo {
         System.out.println("A circunferência é: "+ circunferencia);
     }
 
- public static void main(String[] args) {
-    circulo circulo = new circulo();
-    circulo.calcularArea();
-    circulo.calcularCircunferencia();
- }
+
 
 
 }

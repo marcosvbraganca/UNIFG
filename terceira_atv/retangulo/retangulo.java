@@ -1,3 +1,4 @@
+package retangulo;
 public class retangulo {
     double largura,altura,area,perimetro;
 
@@ -16,10 +17,6 @@ public class retangulo {
         System.out.println("O perímetro é: "+perimetro);
     }
 
-    public static void main(String[] args) {
-        retangulo retangulo = new retangulo();
-        retangulo.calcularArea();
-        retangulo.calcularPerimetro();
-    }
+    
 }
 

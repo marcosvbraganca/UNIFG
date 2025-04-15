@@ -1,3 +1,5 @@
+package livro;
+
 
 
 public class livro {
@@ -17,10 +19,7 @@ public class livro {
         System.out.println("O livro tem: "+livro.numPaginas+" páginas");
     }
 
-    public static void main(String[] args) {
-        livro livro = new livro();
-        livro.exibirInformaçoes();
-    }
+    
 
 }
 

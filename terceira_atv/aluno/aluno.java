@@ -1,3 +1,4 @@
+package aluno;
 public class aluno {
     String nome,matricula;
 
@@ -12,9 +13,4 @@ public class aluno {
         System.out.println("A matrícula do aluno é: "+aluno.matricula);
     }
 
-    public static void main(String[] args) {
-        aluno aluno = new aluno();
-        aluno.exibirInformações();
-
-    }
 }
